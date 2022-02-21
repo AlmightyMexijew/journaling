@@ -12,4 +12,4 @@ Example 2: Webflow. No navigation. Value proposition "Break the code barrier -- 
 
 Example 3: Netflix main page... No nav at top except sign-in for users. Value proposition "100% entertainment for *price* for first 30 days. Watch anywhere, cancel anytime."   Big subscribe button and signup "TRY NOW FOR *price*". 
 
-Example 4: 
+Example 4: Hootsuite.  No nav. Best value proposition "best way to manage social media" "hootsuite has the right solution for everyone" . Call to action: see our plans. Visual shows a dashboard of how things present. Next pages detail features, pricing models.
