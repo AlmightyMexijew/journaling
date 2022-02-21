@@ -17,3 +17,19 @@ b) objection handling: "try zencaster for free" where "for free" is the objectio
 example: zencastr
 
 4) Social Proof. Showing people customers and testimony and data that implies someone already uses it/buys it.
+This gives immediate credibility from biases. Doesn't need to be long testimony or icons. Rating/amount of reviews works too.
+This is "above the fold" type.
+
+5)Visual. See the proof that it works or understand in big picture how the experience is.
+example: smiledirectclub.ca website. They have multiple pictures of people with product, using product, inserting product...which is plastic dentures.
+
+"Above the fold"-- everything seen without having to scroll.
+"Below the fold"-- everything below.
+
+6) Features and Objections. This is where we justify all the value of the headline and subtitle. Explain how it works, handle objections, show product in action.
+example: zencastr  -- "studio quality podcasting" sold.... seen product in action, below fold they address in detail how the products help.
+
+7)More social proof.
+Example: "Bite Toothpaste".  Below the fold, 2 sections with social proof. "Credible Media" and "Customer Testimonial"....so...reviews from media (NYT best seller list type stuff) and customers.
+
+8)FAQ
