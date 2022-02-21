@@ -1,0 +1,12 @@
+Journal:
+Sunday February 20, 2022 (2/20/2022).
+Something I spent several hours on was backgrounds in CSS. I completed and pushed a lot of copywork in the vicklerpractice repo. I then decided to put what I learned to action by adjusting the page in shiny-computing-machine. An issue which I had with it was design. I want it to be a landing page, a simple page that looks sleek and gets the job done for marketing purposes. On Thursday I threw some time at getting a background image to size out just right. After some attempts and research, I had to leave it over for another day. I returned to it and made the following decisions:
+1) I'm going to cut out the unnecessary part of the image. There was clutter because it was a screen capture of the company logo.
+2) I'm going to do that by sending to Windows, using mspaint (which I have familiarity with), and send it back to myself via e-mail so I can get it on Linux.
+3) I'm going to input that and see if it works.
+My result was a cleaner looking logo image but it wasn't fitting right. I put some time into sizing and finding a good pixel LxW for it. Because there was repeated saving involved, I've decided to make use of the dev tools that I learned earlier in my Odin Project experience.
+What was my result? I could make changes real-time and see them on the page without repeated saving/refreshing. This was significantly helpful and helped to bridge the mental gap between theory reading and practice. I now feel more comfortable in using dev tools to adjust things to see how they turn out before copying over the code adjustments to codium.
+
+Another relevant issue that I came across was identifying color.  My plan was to have a color scheme that would match the logo and save me the defining of colors and style. I am here to code, not to play "this color looks nice with this color". My solution to this was to google several websites that could pull colors from imaging. One was successful in locating the exact RGB values needed to get a perfect match.
+
+I then implemented this in an unordered list and managed to create content that follows the theme of the logo. I'm not entirely happy with bordering and margins so it seems in light of that being the next chapter of Vickler to go through, it can be good fodder for practice.
