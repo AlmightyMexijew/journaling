@@ -1,0 +1,19 @@
+Notes on "The Perfect Landing Page Structure(With Examples)" on Flux channel.** This one wasn't the Israeli guy Ran but rather some other guy named Izzy who also is "from Flux".
+
+He found an article from a marketing newsletter called "Marketing Examples". The article is called "My step-by-step guide to landing pages that convert". It lays out what the author believes is a successful way of doing landing pages.
+
+Marketing vs Design-- same goal, different approach. Make the best and most appealing product for customer.
+
+1) Title/Headline.  Explain the value you provide.  Explain what you do.
+Example: Muzzleapp. "A simple mac app to silence embarrassing notifications while screensharing".
+
+2) Subtitle/Subhead. Where we elaborate how we'll deliver that.
+Example: Dormio.  "restful nights are a sip away" -> "calming and sleepy teas to help you unwind and drift to sleep".
+
+3)CTA- Call to action.  Whole point is to guide the users and tell them "this is what's next." Two possible routes.
+a) call to value: calls on people to do something.
+example: flux website. "start learning" on button.
+b) objection handling: "try zencaster for free" where "for free" is the objection handling (supposing concern about price/payment). The button to signup is therefore telling the potential clients to sign themselves and not to worry about cost because it's free.
+example: zencastr
+
+4) Social Proof. Showing people customers and testimony and data that implies someone already uses it/buys it.
