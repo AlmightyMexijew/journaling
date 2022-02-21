@@ -32,4 +32,10 @@ example: zencastr  -- "studio quality podcasting" sold.... seen product in actio
 7)More social proof.
 Example: "Bite Toothpaste".  Below the fold, 2 sections with social proof. "Credible Media" and "Customer Testimonial"....so...reviews from media (NYT best seller list type stuff) and customers.
 
-8)FAQ
+8)FAQ--frequently asked question.
+Ex: "We are Noodz" site. Everything that can't be addressed in short, addressed in detail "under the fold"
+
+9) 2nd CTA-- To reinforce process.  After our initial CTA, after delivering our social proof and features/benefits, we have 2nd CTA so it's easy to take action.
+
+10) Founder's Note-- Where the people behind website/product can tell their story. Explain how they came up with the product, how they arrived at it, what problems they're trying to solve.
+Example: getneuro.com   They have video, pictures, and written story detailing who the founders are and why they created the product.
