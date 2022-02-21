@@ -1,0 +1,15 @@
+Notes on video "5 Crucial Things Every Landing Page Should Have (with examples)". by Flux (youtuber).
+The goal of a page is hyper-specific to make an action happen. In a business sense it's meant to boost conversion to sales.
+Goal 1: Have a very clear value proposition. Explain what is in it for the client. If it's not clear or powerful they'll move on.
+Goal 2: Call-to-Action that is very strong. Tell them what to do. Click, call,e-mail, sign-up, whatever. It's meant to be what we want to happen.
+Goal 3: Keep them focused. Don't lose them in details, limit them.
+Goal 4: Visual. Show them an image that explains what they'll get. What are they signing up for? Best images evoke emotion.
+Goal 5: Social proof. Show example of who else uses it. Inherent biases will lead to people wanting to try. Logos/testimonials.
+
+Example 1: Shopify.  Says "sell online with shopify". Call to action very clear. "Trusted by over 1 million businesses worldwide" == social proof. Another call to action "leave your e-mail, start your free trial".  Image is shop integration, analytics page, shopping cart logo from e-commerce.
+
+Example 2: Webflow. No navigation. Value proposition "Break the code barrier -- build better business websites, faster. Without coding". Visual shows the website building and UI/UX stuff. Social proofing includes Facebook, CBS,Dell,MTV,etc. logos. Button for "get started it's free" as call to action.
+
+Example 3: Netflix main page... No nav at top except sign-in for users. Value proposition "100% entertainment for *price* for first 30 days. Watch anywhere, cancel anytime."   Big subscribe button and signup "TRY NOW FOR *price*". 
+
+Example 4: 
