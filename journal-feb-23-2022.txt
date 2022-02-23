@@ -13,3 +13,5 @@ Since we had to spell out specific lines for each side, it was learned that we h
 In margin3.html there is inheritance from a div to paragraph kaz.  The CSS styles divs to have margin-left of 50px and a skyblue border of 5px.  The h4 and p preceding the div don't style this way. Since the div contains the child element of a paragraph (kaz), there will be an inheritance potentially.  If the div had several others, they'd also inherit. The way we make this happen is by styling the internal child elements as inherit, conferring them with div's styling.
 
 I suspect that it may be possible for child elements not to inherit, if we were to specify several paragraphs and set inheritance or not. Let's test it out.
+
+Interestingly within the skyblue border of the div, the regular paragraphs stayed left...The 789 and the original inheritance both got moved left 50px. I'm not sure why they weren't given their own boxes since inside should be considered padding.
