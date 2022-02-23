@@ -6,3 +6,6 @@ Why is this?  I looked back at the code to understand why it's showing up this w
 
 Therefore, potentially one could use margins to set an element center or right if so desired, at the cost of specifying in detail (margin-left) or accepting movements and overlaps made by the computer when thrown a general "margin: 100px" type statement like we used.
 
+Devtools also came in handy.  In margin2.html I created a similar illusion of centered element with 80px left margin and 150 the rest(individually stated). To the eye it seems as though the margin wasn't accurate but under dev tools inspector it was made clear that the margin was 150 and the display of the devtools made it easier to see that.
+
+Since we had to spell out specific lines for each side, it was learned that we have individual control for each and every possible margin.  If I wanted to push things far to the right side, I could set a left-margin of 1000. If I want to push to the bottom, same thing. Within the boundaries of the screen as dictated by the device.
