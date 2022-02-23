@@ -2,4 +2,7 @@ Today's exercise is in CSS Margins and Padding. I've done this before in the The
 
 At first glance, the initial project Vickler gives is simple. A div after an h4...but magically the div is centered relative to the page. It's not perfectly centered and the element is expanded far beyond the text but it gives off the illusion of centering.
 
-Why is this?  I looked back at the code to understand why it's showing up this way and concluded the following: the margin is 100. We didn't specify what direction.  We're about equidistant from the h4 element as we are from the left "wall" of the screen.
+Why is this?  I looked back at the code to understand why it's showing up this way and concluded the following: the margin is 100. We didn't specify what direction.  We're about equidistant from the h4 element as we are from the left "wall" of the screen. I measured this with my fingers and it was approximate enough that it seemed to validate my theory.
+
+Therefore, potentially one could use margins to set an element center or right if so desired, at the cost of specifying in detail (margin-left) or accepting movements and overlaps made by the computer when thrown a general "margin: 100px" type statement like we used.
+
