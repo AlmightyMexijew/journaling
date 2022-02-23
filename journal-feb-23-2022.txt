@@ -14,4 +14,4 @@ In margin3.html there is inheritance from a div to paragraph kaz.  The CSS style
 
 I suspect that it may be possible for child elements not to inherit, if we were to specify several paragraphs and set inheritance or not. Let's test it out.
 
-Interestingly within the skyblue border of the div, the regular paragraphs stayed left...The 789 and the original inheritance both got moved left 50px. I'm not sure why they weren't given their own boxes since inside should be considered padding.
+Interestingly within the skyblue border of the div, the regular paragraphs stayed left...The 789 and the original inheritance both got moved left 50px. I'm not sure why they weren't given their own boxes since inside should be considered padding. We spell it out that they inherit borders so if there are non-inheriting elements why wouldn't that be cause enough to enforce bordering when stacked with other block elements in the div?
