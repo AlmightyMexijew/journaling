@@ -1,0 +1,4 @@
+journaling 2-25-2022
+Continuing where we left off:
+The width feature. Adding width property can define how much width the HTML element will have. When defined, the padding is added to width, producing unexpected results.
+See example padding3.html 
