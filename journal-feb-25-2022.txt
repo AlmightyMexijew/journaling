@@ -2,3 +2,6 @@ journaling 2-25-2022
 Continuing where we left off:
 The width feature. Adding width property can define how much width the HTML element will have. When defined, the padding is added to width, producing unexpected results.
 See example padding3.html 
+The first div is 400px and the second div is 350 but for whatever reason div2 is slightly bigger than div1 even.
+
+In example 2 (padding4.html) a br tag splits the elements, leading to the proper visual effect of div1 being bigger than div 2. The only thing I wonder is whether the 50px made the difference between padding3.html and padding4.html. To test this, we created padding4a.html and adjusted to 350 like in the previous (padding3.html).
