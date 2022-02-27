@@ -1,0 +1,3 @@
+Journal
+
+Today we are learning, again, about the CSS box model.  We previously learned this with the Odin Project but as with other things, some review and practice won't hurt for retaining concepts and understanding them better.
