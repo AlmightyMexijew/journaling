@@ -1,3 +1,7 @@
 Journal
 
 Today we are learning, again, about the CSS box model.  We previously learned this with the Odin Project but as with other things, some review and practice won't hurt for retaining concepts and understanding them better.
+
+Our first practice page will be one that demonstrates the boxes of the box model. This is boxmodel1.html.
+
+After creating it, I played with the various pieces to see how things shift, in dev tools.  At this point I've decided it's most prudent to make an estimate when I build and then adjust via dev tools on screen to achieve the results I want to hard code in later.  This seems to be incredibly practical for avoiding the guesswork side of things in it's worst form.  The added benefit of it is that all the other interactions are shown on page so it's a way of saving myself the headache of getting one thing right and messing up another when I think I'm done, preventing me from getting ahead of myself simply for getting an element right.
