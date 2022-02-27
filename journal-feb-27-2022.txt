@@ -5,3 +5,24 @@ Today we are learning, again, about the CSS box model.  We previously learned th
 Our first practice page will be one that demonstrates the boxes of the box model. This is boxmodel1.html.
 
 After creating it, I played with the various pieces to see how things shift, in dev tools.  At this point I've decided it's most prudent to make an estimate when I build and then adjust via dev tools on screen to achieve the results I want to hard code in later.  This seems to be incredibly practical for avoiding the guesswork side of things in it's worst form.  The added benefit of it is that all the other interactions are shown on page so it's a way of saving myself the headache of getting one thing right and messing up another when I think I'm done, preventing me from getting ahead of myself simply for getting an element right.
+
+After making the outline, I don't really get the point of it.  It's like a border on a border. I feel like this isn't necessarily helpful to anything. If I wanted a border to be thick I'd just add that.  Double borders doesn't look good in my current opinion.
+
+Even more frustratingly, the boxmodel3.html practice shows outlines but they look no different from borders. Who thought this was a great benefit for the masses?!
+
+As per boxmodel4.html, just another border for borders. Not exciting.  Same for both boxmodelcolors pages. Same exact thing. Borders for borders and we can color them. Fine..Whatever.
+
+Oh look, more borders for borders...and apparently we can pad them too with outline-offset.  BORDERS FOR BORDERS WITH PADDING!
+
+Finally, we move onto something of more use: css text properties.
+The first page combined many different types of properties. Some seemed to not work in firefox (didn't check other browsers, don't really feel inclined to).
+
+The outcome hurt my eyes though because of the spacing of letters.
+The ultimate outcome included borders and padding, text-align, capitalization (which failed), color changes, indenting, justifying to center(alignment), and spaced lettering (most noticed of all I think).
+
+Color was a function of name, but can be RGB or others.
+
+For Text Direction, if we team it with bidi-override we can make text go backward quite literally. It will align it to the right side and put the text backward if rtl is chosen with bidi-override.
+I suspect with Hebrew and Arabic that this would cause some issues as they rely on the unicode and we're over-riding it.
+
+The images can be vertically stacked with text align...but...I don't really see how they're different when it just stacks them one after another and topside isn't top because default is above it.
