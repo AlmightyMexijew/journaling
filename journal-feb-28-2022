@@ -1,0 +1,35 @@
+Journal
+*"if text-decoration is set to none it won't have it" ......no kidding?!
+*text transformation sets things to upper/lowercase .... kind of worthless as a property if you're typing the content out anyway.
+*text-indent....another seemingly worthless one for us when we'll be typing out content ourselves.
+
+A lot of these properties are supposedly for making pages look sharp but from my learner perspective they seem superfluous and unnecessary.
+
+Finally we get to fonts and how to make them work....This is actually something useful since I've tried to make it work in the past.
+
+After a lot of pages of repetitiveness, we're done with that. Now on to tables, lists, and the like.
+
+The first page shows off our ability to make bullets look differently. That's a neat trick for styling.  I can see how it could be important.
+More importantly, we see the colors available to us and how it works. We can color within lists which is a very important styling tool.
+
+example3.html has failed to display color or anything. I'm not sure why based on the copying over but perhaps there is something that was skipped.
+
+On analysis, a small change of "customers" to "listofcustomers" made it happen. We fixed it and the display came out as laid out. I wonder if this was a simple error or sloppiness like some other mistakes in the book.
+
+Another similar issue happened with the next example in example4.html .  We should've had bordering, but, our bordering was not present. I have no idea why because I explicitly stated it and it is correctly named.
+
+On display stuff it's making a great review of concepts I previously learned in TOP like inline and block.  The first major example is layout1.html .  This plays with the max-width and the margins.  I now understand something I previously had no understanding for:
+margins being set to auto divides it up evenly. The effect is that the element is seemingly centered by the fact that there is remaining space to chop up and share on each side.  Since we didn't explicitly state otherwise, it's assuming that we want an even chop.  Therefore elements are centered.  The visual illusion in this is centering, and in smaller elements we see it better.
+Max-width also makes a maximum size, so the smaller element that has it for testing will always resize to within that limit while the other div expands to fill and continue beyond.
+
+Positioning Property 
+The property position is for specifying which method of positioning we want an element to have.  This might be relative, sticky, static, fixed, or absolute. Once we decide on it, we can position the HTML element using the right,left,top,bottom properties. They won't work unless we set the position property in code though.
+
+**Static
+The first layout position is static. All HTML elements on our website take the static position by default. These elements are the least affected by the left, top, bottom, and right properties.  An HTML element with the static option is not positioned specially.  They position by page flow.  This means essentially that the position isn't tied to any specific factor and they may move between browsers, sizes, and user's setups.
+
+**Relative 
+The second layout position is relative. It adjusts the HTML elements relative to the normal position to an HTML element. Setting something to relative and giving it properties will shift it away from it's normal position.
+see relative.html 
+
+This is about where I realized I was taking notes in my journal. Yay.
