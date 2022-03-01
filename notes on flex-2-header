@@ -1,0 +1,2 @@
+notes on flex-2-header
+The first task I had to do was to make things go sideways. Given that there was a list, logo, list ordering I was able to use display: flex; to get it sideways.  After that, I needed to play around with the spacing of the units themselves (one,two, three and four,five,six).  I used gap and it cleanly divided them up.
