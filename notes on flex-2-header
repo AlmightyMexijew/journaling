@@ -1,2 +1,24 @@
 notes on flex-2-header
-The first task I had to do was to make things go sideways. Given that there was a list, logo, list ordering I was able to use display: flex; to get it sideways.  After that, I needed to play around with the spacing of the units themselves (one,two, three and four,five,six).  I used gap and it cleanly divided them up.
+The first task I had to do was to make things go sideways. Given that there was a list, logo, list ordering I was able to use display: flex; to get it sideways.  After that, I needed to play around with the spacing of the units themselves (one,two, three and four,five,six).  I used gap and it cleanly divided them up. There was an issue however with the right margin between three and logo, so, I gave it a margin. This fixed the problem.
+
+Next step from there was to shift Logo to be centered. I've tried align-content without success.
+------
+After reviewing the vlog The Odin Project VLOG | Day 22 CODING For BEGINNERS | Flex-Header CSS Exercise  by Jaybees Tech Talk:
+
+I realized a few differences that needed making.  The first was to set justify-content:space-between to the header. This divided up things nicely-- before I could only get margins to push things roughly in a flimsy way toward center. 
+The alignment of the logo itself I had align-self correct but I needed also to do justify-self:center to get the final result I was looking for.
+
+By justifying content I didn't have to worry much about margins for up/down.  Space-between also was great for pushing things outward to have an equal space between them.
+
+Ultimately I removed gap because justify-space-between was just fine for getting the same results.
+
+His use of negative margin helped with the logo clinging to the left ul (so it could be shoved back with the justify-space-between).
+
+------
+The final solution:
+They put display:flex; , align-items:center, and justify-content on header 
+The also put ul to display flex and put margin and padding at 0; and then gap 8px.
+
+-------
+Something interesting that he brings up:
+margin and padding of 0 eliminates it. This was something I also had to play with. Apparently when we do that, it removes it, so the justifying stuff will calculate it all instead.
