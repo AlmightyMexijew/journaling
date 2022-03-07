@@ -39,4 +39,27 @@ Finally he ends with "contact" 'section' which is simply a CTA with an e-mail li
 
 Overall, very simple to replicate and probably a lot closer to what I will end up with.
 
-3) 
+3) Yuval Tsabar(https://yuvaltsabar.com)
+Excellent color template that is easy on the eyes, pretty, and works well. (Fade green -> Blue).
+He has a nav bar at the top. Home/About/Skills/Services/Testimonials/Projects/Contact.
+He uses flexbox and each one pulls a section by id.
+Very straightforward "Welcome to my portfolio" and an introduction: My name is Yuval Tsabar. Just another web developer :)   There is read more in a button.
+
+He keeps a separate bar on the right which hints where we are in the structure of things by way of dots.
+Bottom left corner are stuck fb/linkin/xplace buttons. It follows the page as you go down.  If you scroll down, it achieves the same as "read more" button.
+
+Yuval cleanly keeps the page centered on the new slide. This is "About me". Basic history of how he got into web dev at 15. Now 35.  He lists 3 stats: projects completed (172), Happy Clients (100%), years of pro experience (7).  Very good for laying out his creds thick.  Next to this on the left side is a random picture of some html.
+
+Next page is "My Skills". He playfully tells us the field changes, he loves to keep up and apply them.
+We also get a list of his skills and a 1-100% rating slide-bar looking graphic for where he feels he's holding.  He does this by having a div that houses the divskill name, another div for progress bar value,and a span that covers/fills in that with white..This has an overlap effect which makes the bar look like it's a real item. Neat trick. I played with it some and set it to 30% but it says "90%" in the text. I might have changed it to say poop in devtools just to see what happened. It's text box essentially. Very neat way to execute that effect.
+
+Next slide is a revolving door slider of "my services". This has icon above a stated theme and explanation subtitle. He's got it set to automatically rotate between them for added effect.
+
+Next after that is testimonials.  He states his goal is to keep the customer happy and give the best experience.  There are 3 dots indicating the opinions. Seems he rotates between 3-4. This also automatically rotates what they said on slides.
+
+He included a My Projects section. It's not stated whether they're personal or work but we get a choice of about 21 projects to scroll through. This isn't automatic. Not sure why given his consistency has been good in the others.
+
+Lastly, contact me section.  "Need a new website? Web application? like to invite me for a beer? feel free to contact me!"
+Left side is webform...Name,Email, message.  Right side is his address, phone, and e-mail.
+
+Overall great website and well-executed design.
