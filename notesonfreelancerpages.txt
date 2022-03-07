@@ -63,3 +63,9 @@ Lastly, contact me section.  "Need a new website? Web application? like to invit
 Left side is webform...Name,Email, message.  Right side is his address, phone, and e-mail.
 
 Overall great website and well-executed design.
+
+4)Daniel Freedman (thefreeddesign.com)
+His page runs on php. Simpler nav-bar upper right. Home/Blog/Contact/About.  Blog goes to a blogspot page.  Contact goes to a contact page on php. About leads to another page in php full of nonsense about waves and a picture of them.. He waxes philosophical but it's a bit off-putting and obnoxious. The main page is very very limited to this and his main pitch is "The Freed Design" which is another philosophical sounding bit of nothing in particular.  It says (C)2022. He has a portfolio. Perhaps it's better but I'm not impressed with this page. What's it for if you've got another entirely different site for portfolio?
+
+
+
