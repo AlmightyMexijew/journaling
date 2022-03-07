@@ -27,3 +27,16 @@ For fun he put an API call of some kind that uses skyscanner... "Visit me in Isr
 His ending is rather weird though: an old matrix picture with his name placed on top of it.  It seems relatively out of place compared to his very well designed and professional website.
 
 Overall opinion: dude definitely has some skills.
+
+2)Omri Feinstein (omrifeinstein.com).
+Page opens with simple black on white layout.  Name in left corner and slightly off-center in center(with red underline).  States "Web developer and designer" under that.  He puts his nav in header as ul. The whole of what we see is in a div called "wrapper". This itself contains a div called "hero" where the opening portion of the page is located. Inside is the container for his text (textbox...and a down arrow).  It's kind of weird how he arranged the text portion since to me it seems overcomplicated for simple black text on white.
+
+Omri has skipped sections (or else not yet heard about them) but the next is "projects".  This houses 8 examples with a picture next to text. He staggered them so that the pics/text switch off. It's pretty sharp and one of the features I like about his site.
+
+Next would-be "section" is "resume".  He lists skills for 2 main sets: design and developmen. He lists his experience across from these 2 u-lists but stylistically it is a bit crammed.
+
+Finally he ends with "contact" 'section' which is simply a CTA with an e-mail link to click and a form that collects name, email, message. He also added a formal looking copyright line.
+
+Overall, very simple to replicate and probably a lot closer to what I will end up with.
+
+3) 
