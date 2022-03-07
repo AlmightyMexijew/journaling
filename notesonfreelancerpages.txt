@@ -1,0 +1,29 @@
+Method: Take 5-10 pages worth of freelancer homepages and analyze them
+Collect what is common among them
+Imitate and build that into structure
+
+1) Zachary DuBow (www.zacharydubow.info).
+*Nav-bar formed of container and sub-container divs in flex.
+*Shows name | Past Work Skills Testimonials
+*Right of this is a div for socials called social-nav. As expected, it produces us the various logos of social media like twitter.
+*Far Right is a contact div. This pushes you to down in the page by id like wikipedia style sections.
+
+Under the bar he has an intro. Fairly simple "Hi there, I'm Zach" and explanation of his creds. He offers 2 buttons here (Work With Me, See My Past Work) and has a picture next to it. Each button just invokes a page wiki-style like "Contact" up in nav.
+
+He utilizes the same dark blue/white color scheme throughout the page, with only a handful of exceptions.
+
+His next area is "Apps I've built". This is a section called "projects". Referrals built in take us here. He gives us 4 examples of his work (including github).
+
+Next section is "Testimonials" and contains his testimonial and personal reference.
+
+Next is section is "Skills".  He posts that he is a full stacker and gives a list of things he uses for his projects.
+
+Next is "contact", where we were first referred to. Here there is a map of Israel pointing him as Jerusalem.  There is also a form here where he says he's happy to hear from us and he then again offers his social media contacts. The form he posted collects name/email/message and submits with a button.
+
+For fun he put an API call of some kind that uses skyscanner... "Visit me in Israel".  It can be used to book flights.
+
+"Summon Me" is an area beneath that which runs off something called calendly.  It allows for picking a day and time for a web conference call.  Pretty neat and definitely slick.
+
+His ending is rather weird though: an old matrix picture with his name placed on top of it.  It seems relatively out of place compared to his very well designed and professional website.
+
+Overall opinion: dude definitely has some skills.
