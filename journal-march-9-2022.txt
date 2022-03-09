@@ -7,3 +7,12 @@ These notes will be my thoughts, while the actual notes will be a separate file 
 First thought: holy crap dude.  There is a massive list of complicated vocabulary terms and concepts that it throws at us initially before talking about anything.  That is a bit terrifying but we are going to learn it because we clearly were successful in learning CSS.  If we can learn HTML and CSS we can handle a bit of Javascript too no?
 
 The next thing they chose was to tell me we're going to start by running JS in browser.  They say that later lessons will teach us how to do outside the browser, which I find unusual and intriguing. It talks about NodeJS so maybe I'll finally understand what the hell that thing is.  Right now as a no-nothing for JS I'm really really lost on why we would want to run a website language outside of the website that it's supposedly impacting.
+
+Our first project requires us to put together a skeleton of HTML.  For this and the future, I've created a repo aptly named Javascript. Look there.
+
+Our first command is in the <script></script> tags in a body.  It's console.log("Hello World!").  Cute.  I opened up console in the devtools pane of the page and sure enough it's there.  I understand this is a way to introduce us to the console but I'm not understanding functionally where it's place is in the greater structure of the things we build and do.
+
+It's kinda neat that we can import .js files the way we import .css files.
+I'm not liking how we went from simple var for assigning variables to 3 different ones (var,let,const).  What the hell is that all about?! It's not as intuitive as say...Python where you can do str = variable or int = variable and assign by input type.
+
+"In many tutorials(and code) across the internet you're likely to encounter var statements. Don't let it bother you!" .....why would it if this is the original way? If anything, I'm more bothered that there are let and const. 
