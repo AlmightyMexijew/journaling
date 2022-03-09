@@ -23,3 +23,48 @@ Alright...Hit bottom of the page and I feel pretty lost.  I think they could've 
 OK....I'm at javascript.info and the tutorial they have here is pretty great. I think I'll give it a read through in further detail from the main page because the explanation of variable, with it's code examples that can be imitated, are superb in quality so far.
 
 Another cute detail that I noticed was that in console I can run commands.  Since javascript.info uses alert to demonstrate using a variable, I tested it out for fun by typing alert("") with some....entertaining...statements. This produces an alert box on page and I'm thrilled. That is both fun and interesting.
+
+In variable1.html we applied the details from javascript.info/variable  .  It assigns our variable via the let option and then calls it in an alert.  This is neat and generates a popup.  I tried first via console, then baked it into the script of a page called variable1.html.   Upon load it greets us. Yay.
+
+The next detail which we applied was the multi-variable assignment in one line.
+let user = 'John', age = 25, message = 'Hello';
+I gave it an alert(user+age+message) and alert for each individually.  The results were successful and I now understand that I can alert multiple variables together as well as individually and assign multiples in a single line as well.
+
+It seems that just like python, a variable can get some reassignment.  The example changes message from "Hello!" to "World!" by simple reassignment.  There is an even better example that demonstrates this with 2 variables. see variable3.html with variable3.js . I made an outside script so I could boost my % of "Javascript code" in the git.
+
+In the variable3 page/script, we created a variable hello and assigned it a value (the string "hello world!"). Afterward we created a second variable which we named message.  We assigned it's value to be whatever the first variable (hello) was.  Our test of it was an alertbox which produces the string.  Since there were 2 alertboxes and they matched we know that variable 2 copied over and we know that they are both functional and working.
+
+After playing with the variable name decs, I decided to create jstest.html for further testing. I'll just create js files and import them into the page rather than hard-coding js scripts into brand new html files each time.  Laziness wins.
+
+The weirdvarname1.js script tests out naming the 2 variables allowed us that aren't lettering (digits aren't permitted). Those are $ and _ ....they are assigned in the script a value (1,2) and then alert tells us the result of adding them. It's 3. We get an alertbox stating 3. Yay maths.
+
+gershonrocks.js  is our script that assigns name = "Gershon", rocks = "rocks", exclaim = "!!!!!!!" and an alert that mashes them together to produce the result. Of course, as we all know, "Gershonrocks!!!!!!" is the answer and it's a true verifiable fact.
+
+multiplybob.js is our script for testing what happens when we assign name = "bob", number = 5, and exclaim = "!".  We alertbox the answer back to us.  The goal was to see if I could get it to make bobbobbobbobbob (5x bob) in an alertbox but that doesn't work. What happened? We got a new learning experience!!!  The alertbox returned us "NaN!".  Interesting....Let's pull out exclaim and add 2 more (!!!) to see what happens in both cases.
+
+When I reassigned exclaim to (!!!), we got NaN!!! back...so.... our feedback ultimately is NaN and our not problematic variable. I wonder why. We'll return to that.
+
+Next up in information of significant value is that case matters, non-latin characters are possible, and there is a list of reserved words not for use in naming convention.  The case thing actually is useful to me out of the 3. I will have to be careful to remember that.
+
+Something I think I understand is "use strict".  They say in the old days you could just assign values...but it's bad practice and implied that it's better if you're assigning a new variable to simply put "let " before assignment. There is something called "use strict" which will not assign things if there is no "let" involved.  Not sure if this applies to pre-existing variables but I am supposing not.
+
+Constants are pretty easy. I get it. It's a variable, it stays the same, we never mess with it and it'll never accept values anyways. Perfectly fine.  What about capital constants? I see what they are as an idea and it's fine: something you need often, give it a name in all caps.
+
+I really like javascript.info as a page so far. For the whole thing they really lay it out nicely the code, the concepts, the outcomes, and even the taks they provide.
+
+I looked into NaN...Our error means that an undefined number..Usually relates to strings that are unconverted to numbers.
+
+Task 1: workingwithvariables.js covers the task.  We are assigning 2 variables but only one has an assignment known. This is name. name = "John". Our other is assigned based on name.  admin = name.  Our alert(name) will put an alertbox that shows us whatever is in admin. Since the name's value is assigned to admin, admin = "John".  Alert then tells us the value..which is "John".  Which is correct.
+
+Math in Javascript
+Math in Javascript is largely familiar to me from Python and the concepts of Python. What I find most interesting really is increment/decrement and the == vs === situation.  Having tested in w3school I see that increment and decrement work to add/subtract 1.
+
+Arithmetic Operations
+These usually operate on 2 number operands.  They can be literal numbers (let x = 100 + 50);  or variables (let x = a + b); or expressions (let x = (100 + 50) * a);
+Numbers are called operands, operators are the thing happening between them.
+For Division, (let x = 5; let y = 2; let z = x / y; ) comes to 2.5 ....x / y is 5/2...said "5 divided by 2".  **Very important**
+For modulus division (%), this returns us the remainder...so if 5/2, it'd give us back 1 (because 2 goes into 5 2x with 1 remainder). 
+
+For incrementing, ++ adds 1 to any number. So..... (let x = 5; x++; let z = x;) as a code block will generate x as 5. It will then add ++ (1). z will be rendered as 6 because x gets reassigned to 5 + 1 (6) and therefore the outcome of z is the new value assignment (aka 6). Similarly decrement (--) does this same exact thing in the other direction.
+
+Exponentiation is something fascinating.  ** raises the first operand to the power of the second....meaning 5 ** 2 is the same as 5*5(5 2nd power).  2 ** 3 = 8 (2*2*2).  For cases of x**y it produces the same result as Math.pow(x,y) . I have no idea what this means as I've never heard of Math.pow .  The result of (let x = 5; let z = Math.pow(x,2);) is 25...I don't really understand how this is an improvement but whatever.
