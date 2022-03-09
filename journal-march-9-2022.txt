@@ -1,3 +1,9 @@
 Notes
 
 Today I am starting up Javascript basics and fundamentals.  I made the decision to move forward to the next stage of personal development by continuing onward.  I completed some of the flexbox material and built a landing page (not their official one but my own for someone else).  Since I may have a new client and the landing page was successful, it seems that stage is done. God help me to move forward successfully.
+
+These notes will be my thoughts, while the actual notes will be a separate file that can be found at Documents/OdinProject/Javascript Notes/Fundamentals-part1.odt .
+
+First thought: holy crap dude.  There is a massive list of complicated vocabulary terms and concepts that it throws at us initially before talking about anything.  That is a bit terrifying but we are going to learn it because we clearly were successful in learning CSS.  If we can learn HTML and CSS we can handle a bit of Javascript too no?
+
+The next thing they chose was to tell me we're going to start by running JS in browser.  They say that later lessons will teach us how to do outside the browser, which I find unusual and intriguing. It talks about NodeJS so maybe I'll finally understand what the hell that thing is.  Right now as a no-nothing for JS I'm really really lost on why we would want to run a website language outside of the website that it's supposedly impacting.
