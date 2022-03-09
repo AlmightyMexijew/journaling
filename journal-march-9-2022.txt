@@ -16,3 +16,10 @@ It's kinda neat that we can import .js files the way we import .css files.
 I'm not liking how we went from simple var for assigning variables to 3 different ones (var,let,const).  What the hell is that all about?! It's not as intuitive as say...Python where you can do str = variable or int = variable and assign by input type.
 
 "In many tutorials(and code) across the internet you're likely to encounter var statements. Don't let it bother you!" .....why would it if this is the original way? If anything, I'm more bothered that there are let and const. 
+
+Oh joy...we're going to rely on let and const instead of var.  OK then....*grumble*
+Alright...Hit bottom of the page and I feel pretty lost.  I think they could've done a better job in laying out the function of Javascript, what it is, how it works, etc. first.  They did a much better, cleaner, hand-holdy job with HTML and CSS. Here it's just "hey here is helloworld in console.log! now do math and tell us what you learned".  Let's see if the links they provided are a bit more enlightening. I'm tempted to go to Vickler and run through his JS stuff.
+
+OK....I'm at javascript.info and the tutorial they have here is pretty great. I think I'll give it a read through in further detail from the main page because the explanation of variable, with it's code examples that can be imitated, are superb in quality so far.
+
+Another cute detail that I noticed was that in console I can run commands.  Since javascript.info uses alert to demonstrate using a variable, I tested it out for fun by typing alert("") with some....entertaining...statements. This produces an alert box on page and I'm thrilled. That is both fun and interesting.
