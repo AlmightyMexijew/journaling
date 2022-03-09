@@ -1,0 +1,3 @@
+Notes
+
+Today I am starting up Javascript basics and fundamentals.  I made the decision to move forward to the next stage of personal development by continuing onward.  I completed some of the flexbox material and built a landing page (not their official one but my own for someone else).  Since I may have a new client and the landing page was successful, it seems that stage is done. God help me to move forward successfully.
