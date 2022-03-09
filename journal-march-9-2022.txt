@@ -68,3 +68,43 @@ For modulus division (%), this returns us the remainder...so if 5/2, it'd give u
 For incrementing, ++ adds 1 to any number. So..... (let x = 5; x++; let z = x;) as a code block will generate x as 5. It will then add ++ (1). z will be rendered as 6 because x gets reassigned to 5 + 1 (6) and therefore the outcome of z is the new value assignment (aka 6). Similarly decrement (--) does this same exact thing in the other direction.
 
 Exponentiation is something fascinating.  ** raises the first operand to the power of the second....meaning 5 ** 2 is the same as 5*5(5 2nd power).  2 ** 3 = 8 (2*2*2).  For cases of x**y it produces the same result as Math.pow(x,y) . I have no idea what this means as I've never heard of Math.pow .  The result of (let x = 5; let z = Math.pow(x,2);) is 25...I don't really understand how this is an improvement but whatever.
+
+Operator precedence
+"The order in which operations are performed in an arithmetic expression." aka order of operations.
+Just like traditional mathematics multiplication is done first. Multiplying/Dividing have higher precedence than addition and subtraction. Just like school, we can change that by using parenthesis.
+so let x = (100 + 50) * 3;  will put precedence on making it 150 * 3 and not 100 + (50*3).  When operations have the same precedence, such as addition and subtraction, the compute left to right. So let x = 100 + 50 - 3....it'll give precedence to 100+50 first...and spit out 147.
+
+There is a table of JS operator precedence values for use on w3school.
+
+Javascript numbers: JS only has one type of numbers. They have be written with or without decimals.  This is very different from python which differentiates between integers and floats.  Extra large or small numbers can be written with scientific notation so something like let x = 123e5; is 12300000   let y = 123e-5; is 0.00123
+
+Javascript numbers are always 64-bit floating point. What this means is that the number is always stored as a double precision floating point number following IEEE 754 standard.  This stores the numbers in 64 bits, where the number(the fraction) is stored in bits 0 to 51, the exponent in bits 52 to 62, and the sign in bit 63.
+What this means is integer precision has accuracy up to 15 digits. The max number of decimals is 17. Floating point precision isn't always accurate.  let x = 0.2 + 0.1 = .300000000000004 (or something to this effect).To counter that it helps to multiply and divide.
+
+Adding Numbers and Strings
+***WARNING!*** JS uses the + operator for both addition and concatenation. Numbers are added, strings are concatenated.
+If we add 2 numbers, the result will be a number. If we add 2 strings, it will concatenate. If we add a number and a string the result will be a string concatenation. If we add a string and a number (in this order), same thing..string concatenation.
+A common mistake is:
+let x = 10;
+let y = 20;
+let z = "The result is: " + x + y;
+
+I think what we have to do is assign z and then reference it in something else with the string.
+Another mistake is expecting 102030 (concatenation) when:
+let x = 10;
+let y = 20; 
+let z = "30";
+let result = x + y + z;
+
+The JS interpreter works left to right...and adds 10+20..to get 30...both x and y are numbers but z is a string...
+Speaking of..this means we can have numeric strings.... so let x = 100; is different than let y = "100"; not just because the letter but also one is a string (y) and the other isn't.
+JS also tries to convert string numbers to numbers in numeric operations so if you let x = "100"; let y = "10"; let z = x / y;
+then the result will be 10 because it will decide on it's own to divide 100/10 and the answer obviously is 10.  Who is the brilliant individual that decided this was a good idea?!  Apparently multiply,divide, and subtract are all capable of working but not adding (which concatenates).
+
+NaN- Not a Number
+NaN means a number is not a legal number (not allowed). Trying to do an arithmetic with a non-numeric string will result in NaN.
+let x = 100 / "Apple";  for example.  But if the string has a numeric value, like we said above, it will do that.We can use the global JS function isNaN() to find out if a value is not a number.
+
+Infinity (or -Infinity) is the value JS will return if we calculate a number outside of the largest possible number. We also get it if we divide by 0.
+
+Hex.  We can do hexadecimal so long as they are proceded by 0x.  This means we can do let x = 0xFF; and it won't mess with it. Also never write a number with a leading zero (like 07). Some JS versions interpret them as octals.  By default JS uses base 10 decimal numbers but we can use the toString() method to output numbers from base 2 to base 36. Hex is base 16, octal is base 8, binary is base 2.
