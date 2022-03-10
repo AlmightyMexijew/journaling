@@ -1,0 +1,6 @@
+Good morning journal. Today we are about to embark deeper on our adventure into JavaScript.  When we left off yesterday we were trying to get a good handle on how JS handles math and numbers.  I don't entirely understand why it's relevant but it seems to be the big theme thus far of "what is programming".
+
+Today's first stop is https://javascript.info/operators .
+Javascript has it's own specific way of doing mathematics.  As we saw yesterday, it likes to make string numbers into real numbers and then do math on them.  That would not fly in Python (so far as I know).
+
+After some reading, the example of a form field where we get numbers in string is brought. That's actually a great example that helps me to understand the mentality.  The user, so far as they think, is entering a number for a phone or address. What they're really doing on the technical level is entering string numbers.  If we wanted to manipulate those numbers we'd have to convert them.

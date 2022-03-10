@@ -108,3 +108,5 @@ let x = 100 / "Apple";  for example.  But if the string has a numeric value, lik
 Infinity (or -Infinity) is the value JS will return if we calculate a number outside of the largest possible number. We also get it if we divide by 0.
 
 Hex.  We can do hexadecimal so long as they are proceded by 0x.  This means we can do let x = 0xFF; and it won't mess with it. Also never write a number with a leading zero (like 07). Some JS versions interpret them as octals.  By default JS uses base 10 decimal numbers but we can use the toString() method to output numbers from base 2 to base 36. Hex is base 16, octal is base 8, binary is base 2.
+
+Numbers as objects.  Normally JS numbers are primitive values created from literals....so let x
