@@ -1,0 +1,6 @@
+Journal
+Friday,March 11, 2022
+
+Today I'm starting the Vickler book's portion of JavaScript.  I feel like TOP missed the mark in terms of adequately explaining the role and use of JavaScript and jumped straight into variables and math and other things that don't necessarily make sense in a dev environment for someone starting from scratch.
+
+Of course, after reading the opening, I feel greatly enlightened by Vickler's introduction.

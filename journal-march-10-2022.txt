@@ -4,3 +4,5 @@ Today's first stop is https://javascript.info/operators .
 Javascript has it's own specific way of doing mathematics.  As we saw yesterday, it likes to make string numbers into real numbers and then do math on them.  That would not fly in Python (so far as I know).
 
 After some reading, the example of a form field where we get numbers in string is brought. That's actually a great example that helps me to understand the mentality.  The user, so far as they think, is entering a number for a phone or address. What they're really doing on the technical level is entering string numbers.  If we wanted to manipulate those numbers we'd have to convert them.
+
+I'm also fascinated by the assignment operator and how they arranged the math and priorities.  It makes sense but for some reason seems like such a foreign concept that we need to even evaluate for it.  Weirdly I get it.... Figure out your answer before restating it.
