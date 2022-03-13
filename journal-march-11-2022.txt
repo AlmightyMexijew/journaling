@@ -3,4 +3,7 @@ Friday,March 11, 2022
 
 Today I'm starting the Vickler book's portion of JavaScript.  I feel like TOP missed the mark in terms of adequately explaining the role and use of JavaScript and jumped straight into variables and math and other things that don't necessarily make sense in a dev environment for someone starting from scratch.
 
-Of course, after reading the opening, I feel greatly enlightened by Vickler's introduction.
+Of course, after reading the opening, I feel greatly enlightened by Vickler's introduction.  The problem is that his very first 2 introductions aren't working. I put into the discord of TOP and await an answer. Til then, we will note on Fundamentals pt 2 in the odt file of that name.
+
+Something interesting that we noted was while coding a window prompt to demonstrate concatenation.  While the code invokes a function greet(), it sets a const variable called name and says it is the prompt (= prompt) ....which a message to it.  Weirdly this only calls it prompt. We then write in the next line alert.  When we discuss what's going on they're referred to as window.prompt() and window.alert().  I don't understand if this means we can shorthand certain things or if there is specific implementation like this.
+

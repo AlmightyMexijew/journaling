@@ -1,0 +1,5 @@
+Shavua tov journal. Since our last journal I spent march 12 going through Vickler's book.  He develops the same basic topics as what we've currently read on TOP's article list, while providing code examples. While the initial code examples (first,second.html) failed to work, the rest were pretty straight forward to read through.
+
+I have decided therefore to continue onward with it as a form of review and practice.  Likewise, I returned to Sololearn to join the JavaScript pathway there.  The information was also very similar. I will create possible projects based in part or full on what they ask me to do.
+
+Finally, for /Russian we're going to, upon figuring out enough JS, make a flip-card matching game. I think that would be a great side project for demonstrating ability to create pages that have manipulated features while also providing extra practice when Duolingo is just too boring or annoying.
