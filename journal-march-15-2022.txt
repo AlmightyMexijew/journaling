@@ -1,0 +1,8 @@
+Good morning Tuesday March 15.
+
+Today we are starting a new chapter (chapter 2-- Javascript Variables). The notes are in vicklerpractice/vicklerpractice/ in the 2nd folder.
+Unsurprisingly, example1.html fails....I'm not sure why but his JavaScript code isn't necessarily working.  It intends to change the paragraph #"variable-demo" but it doesn't succeed and previous incarnations of similar also didn't work. I will have to investigate this further to see if there is a missing element. Previous attempts I found could be alerted or console-logged but the actual invocation of document.getElementByID has significant issues.
+
+An usual part of the book: he claims we can copy/paste the code.....and that he's going to embed in HTML always because "that is how you will write it when creating a website".  Bit unusual given that people can src a .js and it's very common practice from my personal observation.
+
+Not having success with example2.html either it seems.  Confusingly, same method call worked just fine in datatype.html. See there. I honestly don't know what to make of that.

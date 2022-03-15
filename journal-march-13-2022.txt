@@ -3,3 +3,14 @@ Shavua tov journal. Since our last journal I spent march 12 going through Vickle
 I have decided therefore to continue onward with it as a form of review and practice.  Likewise, I returned to Sololearn to join the JavaScript pathway there.  The information was also very similar. I will create possible projects based in part or full on what they ask me to do.
 
 Finally, for /Russian we're going to, upon figuring out enough JS, make a flip-card matching game. I think that would be a great side project for demonstrating ability to create pages that have manipulated features while also providing extra practice when Duolingo is just too boring or annoying.
+
+I started doing the examples and I'm at a question: what is the practical difference between innerhtml and document.write when used to add text?
+
+Well, it took til I created displaybutton.html to figure it out. document.write is invoked in the button and of course it clears both paragraphs out in favor of writing the answer to the math we asked of it.
+I think I get it now: document.write literally starts from scratch.
+
+After both displayalert.html and displaybutton.html, I decided to do displayalertbutton.html to combine both and see how that works.  It worked successfully to generate a resulting alert box from the moment we click the button. It also did the math as planned. Yay!
+
+The console.log() exercise that Vickler shows us sends output to the console. When we open devtools, it's there waiting for us with the answer (but not necessarily the question).
+
+While doing the array demo, it wasn't working. so...I slipped an alert in there. That produced a result and that gave us an alertbox that indicated what was in position 0 of the array. I also wrote differently for document.write but it failed to produce a result.
