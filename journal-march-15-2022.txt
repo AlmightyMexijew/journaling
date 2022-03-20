@@ -5,4 +5,8 @@ Unsurprisingly, example1.html fails....I'm not sure why but his JavaScript code 
 
 An usual part of the book: he claims we can copy/paste the code.....and that he's going to embed in HTML always because "that is how you will write it when creating a website".  Bit unusual given that people can src a .js and it's very common practice from my personal observation.
 
-Not having success with example2.html either it seems.  Confusingly, same method call worked just fine in datatype.html. See there. I honestly don't know what to make of that.
+Not having success with example2.html either it seems.  Confusingly, same method call worked just fine in datatype.html. See there. I honestly don't know what to make of that.  undefined.html failed. Redefine is a similar case but we were expecting anyways and vscode complains about it.
+
+Math.html does work. This gets more and more mysterious every time document.getElementByID is invoked and fails more often than succeeds. In stringconcat.html we noticed an additional number of variable calls that had nothing to do with this page's dec. I cut them out and the script worked just fine as meant to.
+
+Global scope is really really limited in explanation. globalscope.html worked nicely.
