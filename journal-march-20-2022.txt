@@ -3,3 +3,7 @@ Today I decided to throw some time back at the regular TOP curricula.  While goi
 Therefore in the fundamentals-part2 notes I've continued and picked up with that starting even last night March 19.  Something interesting that we are now covering is how to slice() and other methods on strings.  I find this fascinating because methods allow us to do new things other than just creating variables all the time and doing math with them.  Slice will remove text and spit it out, replace() will do as it says...replace text, and so on.
 
 While learning the replace() method I got the idea for my Russian website to incorporate it the way W3 schools has: click function that leads to a change in the text.  We could do one set English and another set Russian and make it a guessing game for what the words are. This would facilitate memorization of words.
+
+Because of the confusing nature of regular expressions as presented here, I googled and found a stackoverflow answer that addressed my desire to know if I can mix/match flags.  Turns out you can!!!  /pattern/flags    where flags can be lumped together.  That is certainly helpful and sexy.
+
+Trim() method seems useful in contexts where we want to have very consistent pattern matching.
