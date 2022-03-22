@@ -1,0 +1,21 @@
+Today we're going to do the Vickler practice related to conditionals.
+if1.html didn't work. I tested it and then adjusted the time but the end result was the same when it should've changed.
+else1.html does work however...and now I'd like to break apart the code here:
+else1.html gives us a paragraph on page that says if we click the button we will get a certain message based on time. In the code itself the function that does that is called FunctionX().  The button has onclick="FunctionX()".  Up front that makes sense..we click, it does...in this case, FunctionX().  But what is inside that?
+first we declare a function FunctionX().  Then we declare 2 vars: myhours and mygreetings.
+myhours uses something called new.  new is a keyword for creating a new object. We create new Date() and give it the method .getHours().
+mygreetings is left undefined but declared to exist.
+then we begin an if statement.  if myhours is < 15 then assign mygreetings to be the string "Have a Great Day"
+then we close curly, else, open curly and begin our new block for if that should be false (i.e. the hour is > 15).
+This block assigns mygreetings to wish us "Have a Great Evening. I hope you enjoy your dinner". We close that with curlies.
+Then, because we're still in function block, we declare document.getelementbyid("ifelse-demo").innerhtml is mygreetings.
+document.getelementbyid("ifelse-demo") calls js to target an element by id (our id of ifelse-demo, assigned to a paragraph left blank).
+The end result is that when we click the button, it begins an evaluation, assigns accordingly, then when the assignments are made it goes to document, looks at elementbyid, and assigns the value to assign it from mygreetings.
+
+It seems to me that if we wanted to mirror this code and reuse it a bit, we could take the parts we need for the Russian flipcard game.  We can have a button set with onclick="function()" and create a function that perhaps switches the word.  The easiest but least efficient way would be to make a function for each word.  I suspect however that perhaps we are able to make an array to draw from...perhaps 2 arrays...and then we tie them together so that position 5 on A is position 5 on B and the same word and it's translation are matched...
+A problem with the array approach however is that it doesn't necessarily leave us any room for switching between words.  We need new words to move from the array, a click->translate function, and then something would have to push to the next word. Would that be conditional on user? Would it be conditional on a timer?
+Looking at this idea big picture it seems like perhaps a conditional could be set so that if element is array2, click will bring the next item up on array1. And if array1, perhaps click will bring next item on array 2...and perhaps even a check for equality to make sure we don't get ahead of ourselves.
+
+something like if array1, check array1 position, get array2 that position else get array1 ++. Maybe something like that would work, with matching and array2 set to increment if false.
+
+weirdly the ifelse.html wasn't successful either despite slipping something in.
