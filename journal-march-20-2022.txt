@@ -7,3 +7,6 @@ While learning the replace() method I got the idea for my Russian website to inc
 Because of the confusing nature of regular expressions as presented here, I googled and found a stackoverflow answer that addressed my desire to know if I can mix/match flags.  Turns out you can!!!  /pattern/flags    where flags can be lumped together.  That is certainly helpful and sexy.
 
 Trim() method seems useful in contexts where we want to have very consistent pattern matching.
+Lots of other useless stuff in there among the good....
+
+Now to move on to conditionals...and away we go...
