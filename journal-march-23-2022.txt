@@ -9,3 +9,6 @@ stringdemo1.html works...it displays the string count.
 We have another thing called indexof() that is demonstrated for us in stringinstring.html.  The outcome of this one is simple: msgY is 25.  What does that mean overall? Position 25!
 
 Our next page looks for the last. Since our text only has it once, obviously it stays position 25.
+After this we tackle what happens if we don't find our search term in the string. This is notfound.html 's role....and the outcome is simple: -1 is returned in output if not found..Washington isn't in the string so of course it isn't found. Our changing the html of our display paragraph indicates this to us for our sake.
+
+The search method is about the same but seems to be case sensitive.
