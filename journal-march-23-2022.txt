@@ -1,0 +1,2 @@
+Good morning. Time to get going. Yesterday we had 3 pages that we made which explored if, else, and elseif.
+Today we're going to do a switch statement and see how that turns out.  The switch takes a look at our day, determines it by the several given courses, and executes accordingly.
