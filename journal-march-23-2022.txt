@@ -6,3 +6,6 @@ The default keyword also can be used to set a block to run when none of the cond
 
 Now for a new chapter: strings and arrays.
 stringdemo1.html works...it displays the string count.
+We have another thing called indexof() that is demonstrated for us in stringinstring.html.  The outcome of this one is simple: msgY is 25.  What does that mean overall? Position 25!
+
+Our next page looks for the last. Since our text only has it once, obviously it stays position 25.
