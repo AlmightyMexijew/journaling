@@ -14,3 +14,5 @@ After this we tackle what happens if we don't find our search term in the string
 The search method is about the same but seems to be case sensitive.
 
 Slice cuts from position to position....which we know from previous notes. Substring is similar but can't go backward (negative positioning). Not exactly a big deal. Substr cuts from position onward for however many chars in 2nd position of (num, num).
+
+Replace() does a similar thing to these but instead of taking chars from a position it looks for words (presumably by value of letters in unicode) and then replaces them with new string of choice. BUT..it does this to a new variable...so we must have a "catcher" variable.
