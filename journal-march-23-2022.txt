@@ -1,2 +1,8 @@
 Good morning. Time to get going. Yesterday we had 3 pages that we made which explored if, else, and elseif.
 Today we're going to do a switch statement and see how that turns out.  The switch takes a look at our day, determines it by the several given courses, and executes accordingly.
+
+This code executed correctly...Today is Wednesday and it has accurately and correctly detected that and given me the message for Wednesday. Awesome.
+The default keyword also can be used to set a block to run when none of the conditions run. In the case of default.html we get rid of Tuesday. The book made it so it's assumed to be Tuesday and it spits back out the default condition. It does this so we can see since the condition of Tuesday is possible while an 8th day isn't.
+
+Now for a new chapter: strings and arrays.
+stringdemo1.html works...it displays the string count.
