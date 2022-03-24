@@ -29,3 +29,19 @@ Also present (after h1,h2) is a button {}.  Is this where our button comes from?
 Here is his play-by-play on the script:
 document.getElementById()    ....this gets our document for our HTML. He adds in the parenthesis....the id of count-el. 
 he sets .innerText = 5.  This changes our counter to 5.  So far nothing special--we did this with Vickler.  Funnily he calls embedding like this "amateurish" and says we'll create index.js  instead. 
+
+He copies it over to the file and sets script src="index.js" to call on it.  He then rambles about how this is going to change our life forever and we'll celebrate a year from now "our first javascript variable"...except we've already been hacking away chief..
+
+Anyways..my night-time snark aside, what he's done thus far is decided to manipulate the innertext to display 5 by citing an element by id.  We've worked with this but only ever innerHTML.
+
+We then ask ourselves: what do we need to build this passenger counting app for a subway?
+
+a-- a way to store the count. We can use a variable to store the data in.
+
+let count = 0
+this is his variable..he's being simple about it 
+
+console.log(count)
+This is a weird addition to me...We already have our number displayed, why the doubling with console.log?
+
+After getting a brief explanation of how to console and also what it's for, we get assigned to create a variable myAge and set value to our age. I'm skipping because I already know how to assign variables and console.log.  I'm much more interested in what the hell we need to console.log our variable for if we're already displaying it on body.
