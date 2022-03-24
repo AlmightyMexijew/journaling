@@ -1,0 +1,21 @@
+Today was a bit of a lazy day today. My brain has been buzzing with all the things that we learned yesterday.  Previously we played with strings a significant amount. Today I returned to a video about APIs. I found it fascinating because it gave me a huge perspective that I lacked previously on how everything works.  APIs aren't this magic other thing, they're the methods and functions...and frameworks are the same...and libraries are the same...Conceptually all the next step stuff is the same with different and additional ways to do things that don't exist singularly.
+
+Talk about mindblowing right? That's crazy.  Slice() and alert() and msgY.replace() and stuff like that just got expanded by others.  Having taken that in mind, the video then addressed REST APIs. That itself was another wow. I've learned previously about them but only in the sense of how to identify them (i.e. specific objects).  This video did the favor of bringing CRUD and HTML response messages to show that we target a specific thing with a specific kind of HTTP header (post,delete,whatever).  Definitely brought me full circle on that..or much closer to it. That's something I can understand. That means a lot to me for development and also clarifies security research I did in the past and what is going on for that.
+
+Now I'm on the https://www.youtube.com/watch?v=jS4aFq5-91M JS full course video of freecodecamp.org.
+Our first goal: building a passenger counter app.
+
+The setup of HTML is as follows:
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>People entered:</h1>
+        <h2 id="count-el">0</h2>
+    </body>
+</html>
+
+Seems pretty straightforward from looking at it. Breaking the code down for analysis we see it has a body with 2 elements: people entered and "count-el" 
+Really people entered is what we see here with just purely the HTML.  count-el is 0 and sits below. Neither button is presented so already we have our first question:
+Q1) Where are the buttons we see?
