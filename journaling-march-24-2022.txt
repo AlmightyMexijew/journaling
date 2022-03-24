@@ -69,3 +69,21 @@ humanDogRatio = 7
 myDogAge = myAge * humanDogRatio
 console.log(myDogAge)
 
+Now we're covering if we want to change it, we simply script in count = 3 to make it 3 instead of 5.  Already knew that, it's demonstrative and what not but it's not exactly practice if you're standing in the snow counting people..I thought the whole point was to make a counter to simplify it all?
+
+Well, after creating a few new reassignments he touches this.."What if we want to increment our count by 1?"
+first proposed comment / code is count + 1 ...still not practical like this... but here is how he fleshes it out.
+
+count = count + 1
+we could increment whatever we want...he does 2,10, -2..
+
+New challenge..Create a variable bonusPoints.  Starts at 50, increases 100, decrease 25, decrease 70.
+
+bonusPoints = 50
+bonusPoints = bonusPoints + 100
+bonusPoints = bonusPoints - 25
+bonusPoints = bonusPoints - 70
+console.log(bonusPoints)
+
+This is how I chose to do it..Still feels inefficient in some way.
+
