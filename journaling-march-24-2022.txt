@@ -19,3 +19,13 @@ The setup of HTML is as follows:
 Seems pretty straightforward from looking at it. Breaking the code down for analysis we see it has a body with 2 elements: people entered and "count-el" 
 Really people entered is what we see here with just purely the HTML.  count-el is 0 and sits below. Neither button is presented so already we have our first question:
 Q1) Where are the buttons we see?
+
+A quick look at the css without writing it all out (he shows us a screen of it) shows that he chose to do body {background-image}. This explains why we see an image of a snowy day even though we don't make any references embedded in the html. Neat.  Great way to do it, I like it.
+
+Also present (after h1,h2) is a button {}.  Is this where our button comes from? But we don't name it as an element so how could it exist?
+
+......Turns out we have to add a script tag...
+
+Here is his play-by-play on the script:
+document.getElementById()    ....this gets our document for our HTML. He adds in the parenthesis....the id of count-el. 
+he sets .innerText = 5.  This changes our counter to 5.  So far nothing special--we did this with Vickler.  Funnily he calls embedding like this "amateurish" and says we'll create index.js  instead. 
