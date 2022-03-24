@@ -87,3 +87,18 @@ console.log(bonusPoints)
 
 This is how I chose to do it..Still feels inefficient in some way.
 
+Now we're getting to interface..hurray..We'll make our buttons.
+
+Instructions: create INCREMENT button with id = "increment-btn"
+
+<button id = "increment-btn">INCREMENT</button>
+
+This of course is very good and works well except that our button isn't styled like his is. He gave it border,padding-top,padding-bottom,color,font-weight,width, margin-bottom, border-radius...  all out.
+
+Because this was a button {} he has styled (and it'll cascade downward) onto the button elements of the page.
+
+There is #increment-btn which has additional background added to make it darkred;  
+
+At this point it's time for bed..this has been enough to think on. We'll continue tomorrow.
+
+
