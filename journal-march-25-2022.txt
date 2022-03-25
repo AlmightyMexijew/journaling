@@ -1,0 +1,38 @@
+New day, new notes. This is what I managed to get done while my wife sleeps and I do productive things in the "nap time".  
+
+We left off yesterday with the video at the point of setting a count for the bonus points and then adding to it and consolelogging it.
+
+Today:
+We're going to write out pseudocode procedures for our counter.
+
+*Store count as 0
+*listen for clicks on increment
+*change counter in the html to reflect new count
+
+So we're entering the HTML and we go add to the button the onclick attribute.  Very nice. We get an explanation of what exactly that is (he calls it event handler).  Inside the onclick we add a function ("increment()").
+
+We also need to create the function in our JS script.
+function increment() {
+
+}
+
+The code in between the curlies will execute every time function is invoked. So console.log("The button was clicked") brings every single time we click.
+
+I actually love this idea because it helps us to understand that elements have attributes, in a meaningful and useful way that just rattling off doesn't do.  Very helpful.
+
+Now we're discussing functions. Great. I think this is awesome and I wish we learned it sooner in TOP methodology.
+
+"The Race Game"
+5 console.log in descending order.
+*go
+*players running Race
+*race finished
+*get ready for new race.
+
+--He says any time we need to repeat our code, we could make a function.  He says we can also call it a "command".
+
+To create a function we need function and then a name with () and {}
+function countdown() {console.log()}
+with 5 : 1 in consolelog()
+
+--Invoke/call a function makes it happen. Otherwise won't happen. We have to call on it to make it happen.
