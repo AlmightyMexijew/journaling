@@ -59,3 +59,20 @@ function laps() {
 
 He does this..but also says we can console.log(lap1 + lap2 + lap3).  He's explaining scopes now.
 
+---
+Time to combine things we've learned for the lap counter
+Create a function that increments the lapsCompleted variable with one.  Run it three times.
+console.log(lapsCompleted) at end.
+
+Pretty simple. I see where this is taking us. We're going to implement this idea in practice to our train ticket system where we're going to be doing a similar concept by having a function that adds to the tally on button press..which we'll call from "onclick" probably.
+
+Anyways here is my code and what I arrived at:
+let lapsCompleted = 0
+function lapUp() {
+    lapsCompleted ++
+}
+lapUp()
+lapUp()
+lapUp()
+console.log(lapsCompleted)
+
