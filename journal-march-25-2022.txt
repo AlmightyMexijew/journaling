@@ -36,3 +36,26 @@ function countdown() {console.log()}
 with 5 : 1 in consolelog()
 
 --Invoke/call a function makes it happen. Otherwise won't happen. We have to call on it to make it happen.
+
+Our turn:
+Create a function that logs out hte number 42. We can name it and we just call/invoke it.
+
+function fart() {
+    console.log(42)
+}
+
+I chose this magical name because why not..it's fun and that is how we get through programming exercises-- by having fun!
+
+Now we have a new exercise: create a function that logs out the sum of all lap times
+
+let lap1 = 34
+let lap2 = 33
+let lap3 = 36
+
+function laps() {
+    let lapTime = lap1 + lap2 + lap3
+    console.log(lapTime)
+}
+
+He does this..but also says we can console.log(lap1 + lap2 + lap3).  He's explaining scopes now.
+
