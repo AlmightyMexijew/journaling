@@ -75,4 +75,22 @@ lapUp()
 lapUp()
 lapUp()
 console.log(lapsCompleted)
+-----
+Very good, we wrote even better than him.  He used count = count + 1
+Very amateurish like he said with our poor embedding of script. Payback!!
+
+Anyways...Here we go..Now to implement this in our app.
+*we initialize count as 0
+*lisen for clicks on increment-btn.
+*increment variable when clicked
+*change count-el in HTML.
+
+So my guess is something like this:
+
+let count = 0
+function Increment() {
+    count ++
+}
+....or count = count + 1 if we want the amateur way....
+document.getElementByID("count-el").innerText = count
 
