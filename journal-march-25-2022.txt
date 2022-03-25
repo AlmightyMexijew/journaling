@@ -94,3 +94,15 @@ function Increment() {
 ....or count = count + 1 if we want the amateur way....
 document.getElementByID("count-el").innerText = count
 
+Strangely he created a variable called countEl and assigned it document.getElementByID("count-el")
+He also has console.log(countEl)
+
+Here is his code in full:
+let countEl = document.getElementById("count-el")
+console.log(countEl)
+let count = 0
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+}
+At this point Shabbat was coming in...so..Shabbat Shalom, we'll resume later.40:58/7:44:19
