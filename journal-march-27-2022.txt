@@ -3,3 +3,6 @@ Shavua tov. Today we settled some business with regard to the business side of t
 What does D want? A basic poster-page type thing for advertising all around. That might be the work of a graphic designer instead of me...but..we can see.
 
 He also wants a simple and basic website. He wasn't explicit as to what so we will have to talk about how "basic" that is.
+
+in the folder repos/Javascript/david we have the following things:
+an index, a stylesheet, and a js sheet. We will build the site to be a basic freelancer site for myself with fake details as needed to demonstrate the capabilities and options.

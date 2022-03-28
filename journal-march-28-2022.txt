@@ -1,0 +1,7 @@
+Good morning...After throwing together something that didn't work, I have opted for a new approach:
+
+I will divide up the project piecemeal.  We will have an index for our main site, several pages linking off to other areas, and each page will display a certain feature or kind of content to get across the point.
+
+We will style them and code them internally because why not? If it works, it works, it's on our drive and not actually going to be done online.  The whole "it's amateurish to embed" thing doesn't matter to me at the moment.
+
+Therefore, here we go...let's get started.
