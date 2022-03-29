@@ -82,3 +82,25 @@ So a regular paragraph with 16, we can header at 32. This gives a rhyme and reas
 *Alignment. Align things left since that is where the eye naturally goes. Don't do centered text because the misalignment hurts the eyes.
 
 Spacing and Alignment together got a lot of attention here. However I don't really understand the practical application of this to code since the grid isn't code-level and could be completely different.
+
+*Padding: Apparently each square is 10 pixels....Something like that. This allows him to calculate padding accordingly. 
+
+*Fonts: 3 main fonts. Serif, Sans-serif, display. These are the big 3 most popularly used.
+
+What is the difference between serif and sans-serif?  Serif has the tail/ extensions. It's the style used in books and newspapers.  Sans-serif is more common on the web.  Generally serif is for classic/professional/elegant look.  Sans-serif is generally good.
+
+Display font category: Very stylized fonts. If we look in googlefonts we get a ton of different kinds. They work for certain feels (he brings Halloween, so Halloween stylized font).
+
+ALWAYS ASK: What does my website want to invoke? What sort of images?
+
+For a broker trading stocks, with pro serious feel, pick fancy serif font.
+
+For a calm, travel website, sans-serif is much better and more relaxing to look at.
+
+But.....I am bothered by the question: code level how do we apply these that we found? Other than font-family, is there something we should know before we assume it's there?
+
+Use 2 fonts in the entire design tops...preferably 1 even.
+
+*Weight: With weight, you can put emphasis on a title or anything that we want. This spares us having to play with font too much.
+
+*White-space: Having equal spacing everywhere.
