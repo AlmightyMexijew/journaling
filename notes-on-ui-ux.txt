@@ -70,3 +70,15 @@ He has 3 images for his website. One big on right side, 2 smaller ones under the
 Under that at some spot is a header "mountains" and a paragraph with filler text. He repeats this under that one.
 
 On left side of page next to it is an image. Now it's got a basic style layout.
+
+DESIGN ISSUES:
+
+*Sizes.  Lowest recommended size is 16.  Fonts should be divisible by 8. 
+This means for headers/subheaders, we have it at ~36 or something.
+So a regular paragraph with 16, we can header at 32. This gives a rhyme and reason. It is much more appealing.
+
+*Spacing. Line height should be consistent. He goes as far as to grid things up and increase line height to match his grid.
+
+*Alignment. Align things left since that is where the eye naturally goes. Don't do centered text because the misalignment hurts the eyes.
+
+Spacing and Alignment together got a lot of attention here. However I don't really understand the practical application of this to code since the grid isn't code-level and could be completely different.
