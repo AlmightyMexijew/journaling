@@ -57,3 +57,16 @@ Video 3 notes:
 Should we learn design as a dev? Short answer is yes. It helps in balancing things out and understanding the outcome.
 
 Basics that would suffice to learn: basic color theory, what to emphasize, page layout.  Will be covered in later tutorials (video 2).
+
+Video 4 notes:
+Typography--the art of making words look nice.
+
+Getting started: opened up figma and we're going to create a design the "lazy way". 
+
+He creates a company called travelly. Has a paragraph and a header. Header is "Unleash your travel."
+subheader of "The mountains of Tibitabo". And then a filler paragraph.
+
+He has 3 images for his website. One big on right side, 2 smaller ones under the paragraph. An arrow between the 3.
+Under that at some spot is a header "mountains" and a paragraph with filler text. He repeats this under that one.
+
+On left side of page next to it is an image. Now it's got a basic style layout.
