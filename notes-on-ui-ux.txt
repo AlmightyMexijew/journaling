@@ -1,0 +1,59 @@
+These are my free-hand notes on the following videos and information sources:
+1)https://www.youtube.com/watch?v=e_kdWMmD3z0 -- DevEd Color Theory 101- Web Design for Beginners
+2)https://www.youtube.com/watch?v=wmEc9HeQV7Q&list=PLDyQo7g0_nsWnzPqYMqoJpm08ULrkiIbt&index=5 -- DevEd Design & Build A Website Crash Course- The Design
+3)https://www.youtube.com/watch?v=A4ViC7NwbZ8 -- DevEd Should you learn Web Design as a Web Developer?
+4)https://www.youtube.com/watch?v=HnpsOtIcfbo -- DevEd Typography 101- Web Design for Beginners
+
+Video 1 notes:
+This video has to do with the concepts behind color and design.
+Primary colors are: Yellow, Red, Blue.
+We can mix yellow and red == orange
+mix red and blue == purple
+mix blue and yellow == green
+These are secondary colors (orange,purple,green)
+Tertiary colors are the combinations between those primaries and secondaries.
+
+This creates the spectrum of colors. This whole lineup is the "hue scheme"..The "color of the color".
+
+Saturation: is the intensity of the color. A very saturated color looks bright and alive. An unsaturated color looks dull and boring.
+
+Difference between daylight and nightlight where colors are expressed better in day.
+
+Darkness leads to tone. As color gets darker, it gets closer to grey and black.
+
+Lightness:
+If we add white to a color, we are affecting the "tint".
+If we add black to the color, we affect the shade.
+
+This is the HSL system's relevant state. Each value 0-100 relates to us the color in these.
+
+Color Psychology:
+*Red-- Passion, love, exciting, energetic.
+Example: Jack Daniels picture at 4:02 mark. Uses heavily saturated red to stand out and grab attention.
+Example:Nike shoes. 4:17 mark. Found in other sport designs because it adds energy and intensity and passion about the sport.
+
+*Blue-- intelligence, trust, security
+Tech  likes to use this. Found in Facebook and Twitter. Color of communication.
+
+*Orange-- Friendly vibe of happiness and joy. That made it fitting as a choice for a fitness website dedicated to working out.
+
+*Green-- Color of nature. Things related to health, nature, peacefulness, growth, money.
+
+*Non-color-- white/black:
+Black-- Classiness and power. Associated with luxury. Give off the feel of sophistication.
+
+White-- Innocent. Pure, safe, clean.
+
+Mono vs Multi-Chromatic? More than one color?
+"Not necessary". We can vary the color with saturation and lightness to achieve different shades. This leads to monochromatic design.
+Example: Tea website. Dark shade of green on white with presence of lighter shades of green.
+
+Great resource for picking colors is Adobe Color. We can suss out the range of color within our goal color.  If we use analogous we get a range of color. If we use monochromatic we get the shading changes. Complementary picks a color that is complementing to our color. We can pick a primary and have other colors as secondary.
+End video.
+
+Video 2 notes:
+
+Video 3 notes:
+Should we learn design as a dev? Short answer is yes. It helps in balancing things out and understanding the outcome.
+
+Basics that would suffice to learn: basic color theory, what to emphasize, page layout.  Will be covered in later tutorials (video 2).

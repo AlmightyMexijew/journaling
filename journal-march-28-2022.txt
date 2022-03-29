@@ -5,3 +5,5 @@ I will divide up the project piecemeal.  We will have an index for our main site
 We will style them and code them internally because why not? If it works, it works, it's on our drive and not actually going to be done online.  The whole "it's amateurish to embed" thing doesn't matter to me at the moment.
 
 Therefore, here we go...let's get started.
+
+I created an index, elements(show off elements of HTML) and make the point of basic stuff, images(show off images, drawback to them), imagesnocat(the actual text and cat smaller size), tables (for tables/lists), and jsdemo(show off js). Some are very spartan but we'll culminate in a combination page that shows off everything together.
