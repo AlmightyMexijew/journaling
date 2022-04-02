@@ -1,0 +1,5 @@
+Late at night, motzi shabbat, and I am watching design videos.  Lately instead of throwing time at code, I've been looking at the fundamentals and theory behind design.  I want to create things that look good. A few pages I made left me wanting better, and my wife said "they look like something from 10+ years ago"...which left me rather insecure. In my mind I had felt it resembled the 1990s pages :/ No bueno.
+
+So..here I am in the freecodecamp video about How to Design a Website-A UX Wireframe Tutorial...and well...in the laying out of concepts I got an idea for potential client X.
+
+I previously made pages and work intended for this person.  I now have an idea.  Perhaps instead of a singular page, we'll pick photos out with action shots and blow them up to a big part of the page and then add in text explaining the processes involved. He has more than enough material for that and it could pay off in showing off all the various activities with photos of him already in action and a basic description of what kind of work each "job" entails.   Perhaps even a basic summary quote could be included to give people an idea of what the current market rate is.
