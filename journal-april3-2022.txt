@@ -1,0 +1,5 @@
+Goal of the day:
+
+Russian: Create a page that has the tabled layout of the Russian verb in present tense.
+
+We will focus on building around getting present tense verbs down. Pick 10-20 verbs, table them accordingly.
