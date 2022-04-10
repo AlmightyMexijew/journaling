@@ -1,0 +1,3 @@
+After some chaos in the pre-Pesach(Passover) leadup I'm putting some time into this whole endeavor again.
+
+Today we're going to throw some time and effort into HTML forms and understanding them. We'll be using the Vickler book to do so.
