@@ -28,3 +28,7 @@ Neat. I think we can say with confidence we get it now.  We just have to figure 
 Arrays are themselves a neat thing the way that it's being demonstrated in JavaScript.  They hold value and instead of making an error, they seem to always have room and call it "undefined" if we haven't defined a value yet.
 
 I tested the functionality of arrays a bit in array4.html by giving 2 buttons that change the paragraph depending on the desired message. Both invoke a non-var variable name and it seems to work just fine so now I know it's universal to all variable name methods.
+
+In indexexperiment1.html we have tried to replicate a pair of input boxes and a button. On finish, the button invokes a function that assigns to variables firstname,lastname. In our original we alerted(firtname + " " + lastname) but have since revised to create an array to be filled with our variables.  GetElementByName returned us "Object Nodelist" and GetElementByTagName gave us "HTML collection". This is a puzzling returned value. If we invoke GetElementById it doesn't alert us anymore and nothing changes.
+
+Finally after some research on Rabbi Dr. Google we arrived to an answer. GetElementById("").value  ....we needed .value all along....and after that, we're good.
