@@ -1,1 +1,30 @@
 Back to JavaScript we go. Yesterday we began some more projects toward building a personal website. I'm paralyzed with indecision on a basic layout but after employing adobe color and something I learned from UI materials I see now the idea of using colors together. The color scheme came out very nice. My issue in part stems from need for images. I feel like I need images but I don't really have what to work with.  How does one effectively employ images to show web development skills? It's not like plumbers or handyman work or other things where you can provide tacit results.
+
+While working on arrays and finishing up the chapter I have come to a part called "string arrays". Andy Vickler says there is "no such thing" but he does show us by code how to do a string into an array.
+
+The code invokes the method .split(",");  Now....I don't know if I have it right but it seems like the code involved is doing a division of a string by the commas so that each piece next to comma is it's own entity...and then it creates an array from that.
+
+Let's investigate further on w3 and other sources to see if our hunch is right.
+
+According to Mozilla Dev, the split() method divides a string into an ordered list of substrings and then puts the substrings into an array and will return an array.  All divisions are done by pattern.
+
+The examples it gives are:
+string -- the quick brown fox jumps over the lazy doing
+
+const words = str.split(' ');
+console.log(words[3]);
+this tells it to cut by spaces(our words) and the expected result should be "fox" as position 3 (counting from 0,1,2,3). REMEMBER WE COUNT FROM ZERO.
+
+const chars = str.split('');
+console.log(chars[8]);
+this tells it to divide by char, so 9th char (position 8) is returned to us when we summon it. Output should be k.
+
+const strCopy = str.split();
+console.log(strCopy);
+expected output should be an array of the sentence.
+
+Neat. I think we can say with confidence we get it now.  We just have to figure out how we're chopping it and then we can use that and feed into an array. I can see this will have tons of potential for all sorts of uses.
+
+Arrays are themselves a neat thing the way that it's being demonstrated in JavaScript.  They hold value and instead of making an error, they seem to always have room and call it "undefined" if we haven't defined a value yet.
+
+I tested the functionality of arrays a bit in array4.html by giving 2 buttons that change the paragraph depending on the desired message. Both invoke a non-var variable name and it seems to work just fine so now I know it's universal to all variable name methods.
