@@ -32,3 +32,5 @@ I tested the functionality of arrays a bit in array4.html by giving 2 buttons th
 In indexexperiment1.html we have tried to replicate a pair of input boxes and a button. On finish, the button invokes a function that assigns to variables firstname,lastname. In our original we alerted(firtname + " " + lastname) but have since revised to create an array to be filled with our variables.  GetElementByName returned us "Object Nodelist" and GetElementByTagName gave us "HTML collection". This is a puzzling returned value. If we invoke GetElementById it doesn't alert us anymore and nothing changes.
 
 Finally after some research on Rabbi Dr. Google we arrived to an answer. GetElementById("").value  ....we needed .value all along....and after that, we're good.
+
+At this point I have decided to make a small array experiment called russianarray1.html .  It will have an array at 1:1 positioning Russian for English. I am going to test out how to have a matching game.

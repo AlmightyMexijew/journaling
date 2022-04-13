@@ -1,0 +1,21 @@
+Good morning. Today we're going through a JS 1 hour tutorial with "Programming with Mosh". The details can be found in the new repo withmosh  .  He includes node.js which we have not yet worked with. 
+
+The first relevant/new information is something that he says around the 12m mark.  "Separation of Concerns"..  This is the first time I've heard the phrase used.  I have seen what he mentioned before about embedding code vs putting it in different files but never with an official name.  Similarly I have seen him include things like head vs body and where in body.
+
+The previous understanding I had was that placement didn't matter but that it was considered amateurish to do a script embedded.
+
+It's interesting that he says putting it at the bottom helps everything to render better. If it were all at the top and then the elements wouldn't it be the same because the computer would already be awared to the existence of the things?  Anyway, I think from now on I will attempt to adopt this.
+
+Wow...and just like that we're using Node by "node index1.js"
+We have now used node to execute js code. That in itself is pretty cool. Up til now I've just loaded the page in  browser to see it work.
+
+What is neat about it is the fact that I'm able to just see calculations and stuff like console without having to load up devtools.
+
+"What values can we assign?"
+Primitives/ Value Types -- strings, numbers, booleans, undefined, null
+
+Dynamic Language
+2 types...Static or Dynamic.
+Static : When setting a variable, type is set and cannot be changed in the future. So string name = 'john';
+Dynamic: let name = 'John';   this can change at runtime
+see index5.js 
