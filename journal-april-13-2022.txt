@@ -70,3 +70,64 @@ Each item in it has an index...so if we console log, it'll return us the index a
 see index7.js .
 
 We console.log the 1 (2nd index) and it returns our value (blue).
+He adds another element (green).
+In JavaScript we can store different types in an array.
+so a change of selectedColors = 1;  will have an array ['red','blue',1]
+
+Arrays are objects in JS.  We can see properties in dot notation.
+
+console.log(selectedColors.);    offers us a huge list of "inherited properties".
+We could use .length to see how long it is.
+
+"Functions"
+A set of statements that performs a task or calculates a value.
+declare by function keyword
+function greet() {}
+Inside the {} is the "body of the function". These are all the logical statements in our application.
+So our logic is to display message to console.
+
+function greet() {
+    console.log('Hello World');
+}
+
+Our functions can have inputs, which change how they behave.
+If we want to display name of the person we can add a variable in the (). This is a parameter.  The function now has parameter name.
+function greet(name) {
+    console.log('Hello' + name);
+    }
+We can see the results in index9.js .  In greet('John'); we would be creating an "argument" (John) and passing it to the next part which is our name parameter.
+
+This confuses many programmers.  A parameter is what we have in the () at time of declaration but argument is what we supply later for that.
+
+We can add multiple parameters to functions as well.
+function greet(name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+}
+
+When we call it, we should pass with all needed arguments.  For now if we use greet('John') and greet('Mary') it'll produce those with "undefined" for second.  By default no assignment does that.
+
+If we do greet('John','Smith') our output is "Hello John Smith".
+
+Function pt 2
+Our prior function is performing a task.  Sometimes there might be a calculation of a value.
+
+function square(number) {
+    number * number;
+}
+We need to return the value...so we should use return keyword
+function square(number) {
+    return number * number;
+}
+
+This means square(2); will square it
+Or we can do something else...
+
+let number = square(2);
+console.log(number);
+
+This shows square of 2. We could also just pass to console.log
+console.log(suqare(2));
+
+To end the video Mosh tells us all about the function console.log being itself a function. We can pass values to it and see it happen..We can pass functions to it too..
+
+Big picture programming is about 100s or 1000s of functions in sync working toward an end result goal.
