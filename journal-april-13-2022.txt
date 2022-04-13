@@ -19,3 +19,21 @@ Dynamic Language
 Static : When setting a variable, type is set and cannot be changed in the future. So string name = 'john';
 Dynamic: let name = 'John';   this can change at runtime
 see index5.js 
+undefined is a type AND a value. It's type will be undefined and it's value.
+The type of selectedColor is an object...even though it's value is null.
+
+Reference Types 
+Objects, arrays, functions
+
+Object: It's like an object in real life. A person has age, name, address, etc.  Same concept in JS.  When working with multiple related variables we can put them in the object.
+
+Instead of declaring 2 variables, we can declare person object and reference it.
+
+To do that, we use let/const.
+let person = {} 
+{} are "object literal"
+Between them we add "key value pairs.
+
+see index6.js 
+
+This is actually quite interesting and amazing. We are able to assign a whole bunch of what would be variables....in a single go.   If we know ahead of time we can just create objects and give them those values and spare having to rewrite a bunch of variables per thing.
