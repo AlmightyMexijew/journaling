@@ -37,3 +37,36 @@ Between them we add "key value pairs.
 see index6.js 
 
 This is actually quite interesting and amazing. We are able to assign a whole bunch of what would be variables....in a single go.   If we know ahead of time we can just create objects and give them those values and spare having to rewrite a bunch of variables per thing.
+
+name, age are properties and the info in them is what makes them value pairs.
+
+There are 2 ways to work with the properties. If we wanted to change, say, the name... We need to access the name property.
+
+"Dot notation"
+person.name = 'John'
+
+We can also call on it to see it.
+console.log(person.name);
+
+"Bracket Notation"
+person['name'] = 'Mary';
+
+"Which is better?"
+Dot is more concise and should be default.
+When we don't know what property, we're going to have a variable like "selection = 'name';" 
+With this we can dynamically do this:
+person[selection] = 'Mary';
+
+Basically by making it be a variable, we can hook that other variable up to something and when it receives it's value, it transfers the value to the object because they share that value.
+
+"Arrays"
+Sometimes we might deal with a list of objects. Say a list of products in shopping cart or list of colors selected. We can store in an array.
+
+We can declare an array by creating a variable.
+let selectedColors = ['red','blue'];
+
+The array literal is the [] empty.
+Each item in it has an index...so if we console log, it'll return us the index and the contents.
+see index7.js .
+
+We console.log the 1 (2nd index) and it returns our value (blue).
