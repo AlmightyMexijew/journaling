@@ -3,3 +3,50 @@ Hi and welcome to Pesah Chol HaMoed..Today/yesterday we counted 1 to the omer.
 For the rest of you, welcome back to the notes. Let's try to get some work done.
 
 Today we will create a form for my brother. We will also try to create some regular code to get the juices flowing.
+After creating a form for his data collection project, I'm continuing onward to the book PYTHON CRASH COURSE.
+
+We created the files simplemsg.py and simplemsgs.py for the pg19 project in PYTHON CRASH COURSE.
+Now to move on to strings and other stuff.
+
+names.py is our file that demonstrates the title() method. This capitalizes the first letter of each perceived word. Since ada lovelace is 2 words, Ada Lovelace is our new printed result.
+
+names2.py is our file to demonstrate the .upper and .lower methods. It makes the string all big or small depending the method.
+One suggestion the book makes is for string conversion on user data. By doing .lower() we'll get lowercase strings.
+
+fullname.py is our file for demonstrating f-strings/format strings.  f"{}" allows us to import name of any variable in braces.
+fullname2.py is our file for using fstring to deliver a greeting to our user.
+fullname3.py is our file to demonstrate assigning it to a variable before printing.
+
+We can also, as seen in fullname2.py and fullname3.py use a method like title on fstrings.
+
+In practicing stripping, I have learned how to .strip() the strings.  rstrip() and lstrip() are single-sided while strip() does both.
+
+apostrophe.py is our file for seeing how to correctly use single/double quotes.
+
+Try ourselves on pg25 of CRASH COURSE PYTHON.
+1) personal message: use a variable to represent a person's name and print a message to them.
+2) Name Cases: Use a variable to represent a person's name and then print their name in lowercase,uppercase,titlecase.
+3) Famous Quote: Find a quote from a famous person you admire. Print it and the name of the author. Output should have $name once said "quote here" including quote marks.
+4) Famous Quote 2: Do again but this time with famous_person variable for name. Then compose a message and represent it with a new variable called message. print message.
+5) Stripping Names: Use a variable to represent a person's name and include whitespace at beginning and end. Use each and combo of \t and \n at least once. Print the name once so it's displayed with white space. Print lstrip(), rstrip(),strip() in that order.
+
+Cool. I created the files in the now new folder for the book python crash course and put them in chp1/2 folder of that. Onward.
+
+Something neat that I never knew about numbers is that in Python the computer will ignore if you underscore in numbering. 1_000 would be 1000.
+
+Another interesting thing: multiple assignment. That's pretty cool.
+TRY YOURSELF:
+2-8  Number Eight: write addition,subtraction, multiplication/division where you get 4 lines with result of 8.
+2-9 Favorite Number: Variable your favorite number. Create a message that reveals it. Print that message.
+2-10 choose 2 programs and add a comment to them. (skipped)
+2-11 import this  (skipped)
+
+Now Chp 3 : Lists
+Lists in python are done in brackets [ ] and separated by commas. 
+-1 always returns the last item, and negative number index goes inward from end. Obviously no 0 because it's in use for positive count.
+in bicycles2.py in chp3 folder we can see the use of the fstring to take data from a list and pop it right into a variable with a string. In this case "My first bicycle was a Trek" is the answer..with Trek being what we pulled from the list. The string filled in up to "my first bicycle was a" and thne plopped our choice fstring right in...
+
+chp 3 tRY It
+3-1 Names: Store names of a few friends in a list called names. Print each person's name by accessing elements in it via index. One at a time.
+3-2 Greetings: Start with 3-1 list and print a message to them individually, with same text but different name
+3-3 Your own list: think of favorite mode of transportation and make a list that stores several examples. Print a series of statements about items in the list.
