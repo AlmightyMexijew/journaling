@@ -1,0 +1,51 @@
+Good morning. Today we are going to continue our journey into Python.
+Here we go.
+We start from scratch, from memory on 3-1 Names.  It wasn't so hard because we just make a list and go through it. Our product was names.py and it is found in chp3 folder.
+We also made greetings.py and it was a success. I am Gershon. I am the best.
+
+An interesting note about the book: he suggests that we could create a game where we shoot aliens and the list removes aliens/adds them as they appear on screen. While his point is dynamic change to lists (the title of paragraph is changing,adding,removing elements), I don't really see how this could work in big picture.
+
+What's the syntax to modify lists?  We use the name of the list and then assign a new value to whatever index value.
+i.e. motorcycles[0] = 'ducati' will put ducati in that 0 spot.
+
+What's the syntax to add? listname.append('infohere')
+we added in motorcycles....instead of removing the ducati change for index0 we just appended it after and printed. See motorcycles.py .
+
+To demonstrate appending from nothing, we created motorcycles0.py.
+
+We can also insert with listname.insert(index#,'itemhere')
+so motorcycles.insert(0,'ducati') on  blank list adds it in 0
+if we did the 012 as honda,yamaha,suzuki, we could at at 1 and it'll be before yamaha.
+see motorcycles1.py .
+
+To remove items, we do del listname[index#]
+so.... del motorcycles[0]
+see motorcycles2.py
+we played with it some because the deletions continue in example..so we just added to them.
+
+pop() method
+This is for removing an item but retaining a value. His example is x/y coordinates of alien that was just shot down so we can draw explosion there. Or....we could move user from active to inactive list.
+pop() removes last item in a list but allows for working with that item after removing it. The name comes from "popping the top off the stack"...aka removing the top of the list, the last thing if it was structured "last on top".
+example motorcycles4.py for this.
+We can use the pop() for chronological statements....
+see motorcyclespop.py
+
+However pop can be used in more than just the last of a chronological list. We can use a position in the ().
+see motopop2.py 
+We can also remove by value with remove().
+see motoremove.py 
+
+We can also use remove() to put something elsewhere 
+In motoremove2.py we move ducati to too_expensive and print a reason.
+
+3-4 Guest list: invite anyone, living or dead, to dinner. Make a list with at least 3 people we'd like to invite. Then print a message inviting them to dinner.
+
+3-5 Changing Guest List: Someone can't make it, we need to change by sending out a new set of invitations. Thing of someone else.
+Add a print call to 3-4 with whoever can't make it. Modify list. Replace with new person.
+Print a second set for each person.
+3-6 More Guests more guests are possible bc bigger table. Add 3 guests.
+*use insert() to add to beginning of list (insert(0)
+*insert to add to middle (~5)
+*use append to add to end of list.
+print new set of messages
+end of day.
