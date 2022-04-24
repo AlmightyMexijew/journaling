@@ -1,0 +1,9 @@
+Good morning. Today we are going to take a small detour into the Mozilla documentation and run through their tutorials. I would like to refresh some things as well as try from a different angle.  At this point I have enough coding experience under my belt that it'll add and fill in the gaps that TOP and other project-oriented work have left in their rush.
+
+We'll start from the very beginning to see what they have to say, and then take it from there. All files will be in the repo mozillatutorial.
+
+Intro to HTML:
+First interesting thing that I note is the emphasis on explaining attributes. I actually find this pretty great. I don't know that it's something to start with(maybe it is?) but as I've progressed I've found myself lacking the knowledge about how to make attributes work for me. This is nice.
+
+One of the ones that is interesting is disabled="disabled" for turning off/graying out form options. Pretty cool and nifty to know.
+Well..I got sidetracked and ended up spending time on my Russian on Duolingo, which led to me creating the tips.html and tips.css assets in /repos/russian .
